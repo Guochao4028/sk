@@ -15,6 +15,8 @@
 		0B7B4A281E35EC4A0038AE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7B4A261E35EC4A0038AE6C /* LaunchScreen.storyboard */; };
 		0B7B4A331E35EC4A0038AE6C /* ShowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A321E35EC4A0038AE6C /* ShowerTests.m */; };
 		0B7B4A3E1E35EC4A0038AE6C /* ShowerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A3D1E35EC4A0038AE6C /* ShowerUITests.m */; };
+		0B7B4A4E1E35ECE60038AE6C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A4D1E35ECE60038AE6C /* RootViewController.m */; };
+		0B7B4A511E35ED0B0038AE6C /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A501E35ED0B0038AE6C /* RootNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0B7B4A391E35EC4A0038AE6C /* ShowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7B4A3D1E35EC4A0038AE6C /* ShowerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowerUITests.m; sourceTree = "<group>"; };
 		0B7B4A3F1E35EC4A0038AE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7B4A4C1E35ECE60038AE6C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0B7B4A4D1E35ECE60038AE6C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0B7B4A4F1E35ED0B0038AE6C /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		0B7B4A501E35ED0B0038AE6C /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		0B7B4A171E35EC4A0038AE6C /* Shower */ = {
 			isa = PBXGroup;
 			children = (
+				0B7B4A4B1E35ECA10038AE6C /* Root */,
 				0B7B4A1B1E35EC4A0038AE6C /* AppDelegate.h */,
 				0B7B4A1C1E35EC4A0038AE6C /* AppDelegate.m */,
 				0B7B4A1E1E35EC4A0038AE6C /* ViewController.h */,
@@ -138,6 +145,17 @@
 				0B7B4A3F1E35EC4A0038AE6C /* Info.plist */,
 			);
 			path = ShowerUITests;
+			sourceTree = "<group>";
+		};
+		0B7B4A4B1E35ECA10038AE6C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				0B7B4A4C1E35ECE60038AE6C /* RootViewController.h */,
+				0B7B4A4D1E35ECE60038AE6C /* RootViewController.m */,
+				0B7B4A4F1E35ED0B0038AE6C /* RootNavigationController.h */,
+				0B7B4A501E35ED0B0038AE6C /* RootNavigationController.m */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +293,8 @@
 			files = (
 				0B7B4A201E35EC4A0038AE6C /* ViewController.m in Sources */,
 				0B7B4A1D1E35EC4A0038AE6C /* AppDelegate.m in Sources */,
+				0B7B4A4E1E35ECE60038AE6C /* RootViewController.m in Sources */,
+				0B7B4A511E35ED0B0038AE6C /* RootNavigationController.m in Sources */,
 				0B7B4A1A1E35EC4A0038AE6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
