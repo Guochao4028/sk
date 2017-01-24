@@ -19,6 +19,8 @@
 		0B7B4A5A1E35F68D0038AE6C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A591E35F68D0038AE6C /* RootViewController.m */; };
 		0B7B4A5E1E35F6A50038AE6C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A5C1E35F6A50038AE6C /* LoginViewController.m */; };
 		0B7B4A5F1E35F6A50038AE6C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B7B4A5D1E35F6A50038AE6C /* LoginViewController.xib */; };
+		0B7B4A621E35F85A0038AE6C /* CustomNavgitionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A611E35F85A0038AE6C /* CustomNavgitionBar.m */; };
+		0B7B4A651E35FAF10038AE6C /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A641E35FAF10038AE6C /* UIView+AutoLayout.m */; };
 		9DF0F50E0C973EADA6FAAD5C /* libPods-Shower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0CCD3BB1D645DF9675A8A2 /* libPods-Shower.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,12 @@
 		0B7B4A5B1E35F6A50038AE6C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0B7B4A5C1E35F6A50038AE6C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0B7B4A5D1E35F6A50038AE6C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0B7B4A601E35F85A0038AE6C /* CustomNavgitionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavgitionBar.h; sourceTree = "<group>"; };
+		0B7B4A611E35F85A0038AE6C /* CustomNavgitionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavgitionBar.m; sourceTree = "<group>"; };
+		0B7B4A631E35FAF10038AE6C /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		0B7B4A641E35FAF10038AE6C /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		0B7B4A671E35FC0B0038AE6C /* UIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
+		0B7F049D1E36FA7C00E8B06F /* CommonnMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonnMacro.h; sourceTree = "<group>"; };
 		160A7CB3A99E22EB955D315B /* Pods-Shower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shower/Pods-Shower.release.xcconfig"; sourceTree = "<group>"; };
 		2E0CCD3BB1D645DF9675A8A2 /* libPods-Shower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88ACE729DAA90E640E625865 /* Pods-Shower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shower/Pods-Shower.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +127,7 @@
 		0B7B4A171E35EC4A0038AE6C /* Shower */ = {
 			isa = PBXGroup;
 			children = (
+				0B7B4A661E35FBEC0038AE6C /* Macro */,
 				0B7B4A561E35F5D60038AE6C /* ViewControllers */,
 				0B7B4A551E35F5AB0038AE6C /* Networking */,
 				0B7B4A541E35F5980038AE6C /* DataModel */,
@@ -178,6 +187,8 @@
 		0B7B4A521E35F4AF0038AE6C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0B7B4A631E35FAF10038AE6C /* UIView+AutoLayout.h */,
+				0B7B4A641E35FAF10038AE6C /* UIView+AutoLayout.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -185,6 +196,8 @@
 		0B7B4A531E35F4AF0038AE6C /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				0B7B4A601E35F85A0038AE6C /* CustomNavgitionBar.h */,
+				0B7B4A611E35F85A0038AE6C /* CustomNavgitionBar.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -219,6 +232,15 @@
 				0B7B4A5D1E35F6A50038AE6C /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		0B7B4A661E35FBEC0038AE6C /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0B7B4A671E35FC0B0038AE6C /* UIMacro.h */,
+				0B7F049D1E36FA7C00E8B06F /* CommonnMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		F114A638D6AE490B839B9B74 /* Pods */ = {
@@ -424,7 +446,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B7B4A201E35EC4A0038AE6C /* ViewController.m in Sources */,
+				0B7B4A651E35FAF10038AE6C /* UIView+AutoLayout.m in Sources */,
 				0B7B4A1D1E35EC4A0038AE6C /* AppDelegate.m in Sources */,
+				0B7B4A621E35F85A0038AE6C /* CustomNavgitionBar.m in Sources */,
 				0B7B4A5E1E35F6A50038AE6C /* LoginViewController.m in Sources */,
 				0B7B4A511E35ED0B0038AE6C /* RootNavigationController.m in Sources */,
 				0B7B4A1A1E35EC4A0038AE6C /* main.m in Sources */,
