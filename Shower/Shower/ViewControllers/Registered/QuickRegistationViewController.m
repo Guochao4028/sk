@@ -1,26 +1,26 @@
 //
-//  RootNavigationController.m
+//  QuickRegistationViewController.m
 //  Shower
 //
-//  Created by WangShuChao on 2017/1/23.
+//  Created by WangShuChao on 2017/2/3.
 //  Copyright © 2017年 无限未来. All rights reserved.
-//
+//快速注册
 
-#import "RootNavigationController.h"
+#import "QuickRegistationViewController.h"
 
+#import "CustomNavgitionBar.h"
 
-
-@interface RootNavigationController ()
-
-
+@interface QuickRegistationViewController ()
 
 @end
 
-@implementation RootNavigationController
+@implementation QuickRegistationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,8 +29,11 @@
 }
 
 
+-(void)initUI{
 
-
+    [self setupNavgitionBar];
+    self.navgitionBar.title = @"快速注册";
+}
 
 
 /*

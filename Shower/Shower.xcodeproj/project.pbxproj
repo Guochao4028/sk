@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0012D41E4436B40097CDD1 /* QuickRegistationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0012D21E4436B40097CDD1 /* QuickRegistationViewController.m */; };
+		0B0012D51E4436B40097CDD1 /* QuickRegistationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0012D31E4436B40097CDD1 /* QuickRegistationViewController.xib */; };
 		0B7B4A1A1E35EC4A0038AE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A191E35EC4A0038AE6C /* main.m */; };
 		0B7B4A1D1E35EC4A0038AE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A1C1E35EC4A0038AE6C /* AppDelegate.m */; };
 		0B7B4A201E35EC4A0038AE6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B4A1F1E35EC4A0038AE6C /* ViewController.m */; };
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0012D11E4436B40097CDD1 /* QuickRegistationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickRegistationViewController.h; sourceTree = "<group>"; };
+		0B0012D21E4436B40097CDD1 /* QuickRegistationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickRegistationViewController.m; sourceTree = "<group>"; };
+		0B0012D31E4436B40097CDD1 /* QuickRegistationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickRegistationViewController.xib; sourceTree = "<group>"; };
 		0B7B4A151E35EC4A0038AE6C /* Shower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7B4A191E35EC4A0038AE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B7B4A1B1E35EC4A0038AE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0012CF1E44361E0097CDD1 /* Registered */ = {
+			isa = PBXGroup;
+			children = (
+				0B0012D11E4436B40097CDD1 /* QuickRegistationViewController.h */,
+				0B0012D21E4436B40097CDD1 /* QuickRegistationViewController.m */,
+				0B0012D31E4436B40097CDD1 /* QuickRegistationViewController.xib */,
+			);
+			path = Registered;
+			sourceTree = "<group>";
+		};
+		0B0012D01E4436630097CDD1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		0B7B4A0C1E35EC4A0038AE6C = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +149,7 @@
 		0B7B4A171E35EC4A0038AE6C /* Shower */ = {
 			isa = PBXGroup;
 			children = (
+				0B0012D01E4436630097CDD1 /* Resource */,
 				0B7B4A661E35FBEC0038AE6C /* Macro */,
 				0B7B4A561E35F5D60038AE6C /* ViewControllers */,
 				0B7B4A551E35F5AB0038AE6C /* Networking */,
@@ -219,6 +242,7 @@
 		0B7B4A561E35F5D60038AE6C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0B0012CF1E44361E0097CDD1 /* Registered */,
 				0B7B4A571E35F5EA0038AE6C /* Login */,
 			);
 			path = ViewControllers;
@@ -371,6 +395,7 @@
 			files = (
 				0B7B4A5F1E35F6A50038AE6C /* LoginViewController.xib in Resources */,
 				0B7B4A281E35EC4A0038AE6C /* LaunchScreen.storyboard in Resources */,
+				0B0012D51E4436B40097CDD1 /* QuickRegistationViewController.xib in Resources */,
 				0B7B4A251E35EC4A0038AE6C /* Assets.xcassets in Resources */,
 				0B7B4A231E35EC4A0038AE6C /* Main.storyboard in Resources */,
 			);
@@ -451,6 +476,7 @@
 				0B7B4A621E35F85A0038AE6C /* CustomNavgitionBar.m in Sources */,
 				0B7B4A5E1E35F6A50038AE6C /* LoginViewController.m in Sources */,
 				0B7B4A511E35ED0B0038AE6C /* RootNavigationController.m in Sources */,
+				0B0012D41E4436B40097CDD1 /* QuickRegistationViewController.m in Sources */,
 				0B7B4A1A1E35EC4A0038AE6C /* main.m in Sources */,
 				0B7B4A5A1E35F68D0038AE6C /* RootViewController.m in Sources */,
 			);

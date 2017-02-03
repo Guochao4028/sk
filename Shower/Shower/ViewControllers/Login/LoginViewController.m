@@ -4,9 +4,10 @@
 //
 //  Created by WangShuChao on 2017/1/23.
 //  Copyright © 2017年 无限未来. All rights reserved.
-//
+// 登录
 
 #import "LoginViewController.h"
+#import "CustomNavgitionBar.h"
 
 @interface LoginViewController ()
 
@@ -17,12 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)initUI{
+    [self setupNavgitionBar];
+    self.navgitionBar.title = @"登 录";
+    
+}
+
+
 
 /*
 #pragma mark - Navigation

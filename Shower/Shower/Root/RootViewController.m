@@ -4,9 +4,11 @@
 //
 //  Created by WangShuChao on 2017/1/23.
 //  Copyright © 2017年 无限未来. All rights reserved.
-//
+// 所有这个项目 ViewController 的父类
 
 #import "RootViewController.h"
+
+#import "CustomNavgitionBar.h"
 
 @interface RootViewController ()
 
@@ -23,6 +25,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - 基础方法
+
+- (void)setupNavgitionBar{
+    [self.navigationController setNavigationBarHidden:YES];
+    self.navgitionBar = [[CustomNavgitionBar alloc]init];
+    [self.view addSubview:self.navgitionBar];
+}
+
+
 
 /*
 #pragma mark - Navigation

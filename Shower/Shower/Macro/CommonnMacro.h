@@ -4,7 +4,7 @@
 //
 //  Created by WangShuChao on 2017/1/24.
 //  Copyright © 2017年 无限未来. All rights reserved.
-//
+// 常用的宏
 
 #ifndef CommonnMacro_h
 #define CommonnMacro_h

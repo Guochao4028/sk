@@ -4,7 +4,7 @@
 //
 //  Created by WangShuChao on 2017/1/23.
 //  Copyright © 2017年 无限未来. All rights reserved.
-//
+// 一些ui的宏
 
 #ifndef UIMacro_h
 #define UIMacro_h
